@@ -2,7 +2,7 @@
 import ReservationCard from "@/app/_components/ReservationCard";
 import { useOptimistic } from "react";
 import { deleteReservation } from "../_lib/actions";
-
+//dep
 function ReservationList({ bookings }) {
   const [optimisticBooking, optimisticDelete] = useOptimistic(
     bookings,
